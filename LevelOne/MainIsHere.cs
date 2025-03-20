@@ -7,9 +7,9 @@ namespace LevelOne
     public class MainIsHere
     {
         /// <summary>
-        /// Does a cool thing.
+        /// Prints a cool thing.
         /// </summary>
-        /// <param name="args">damn</param> <summary>
+        /// <param name="args"></param> <summary>
         /// 
         /// </summary>
         /// <param name="args"></param>
