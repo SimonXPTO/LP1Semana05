@@ -7,7 +7,7 @@ namespace LevelOne
         /// <summary>
         /// Does a cool thing.
         /// </summary>
-        /// <param name="args"></param> <summary>
+        /// <param name="args">damn</param> <summary>
         /// 
         /// </summary>
         /// <param name="args"></param>
