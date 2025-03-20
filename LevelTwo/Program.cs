@@ -1,9 +1,11 @@
 ﻿using Spectre.Console;
+using SoGoodLib;
 
 public static class Program
 {
     private static void Main(string[] args)
     {
+        SoGoodClass.SoGoodMethod();
         CanvasImage image =new CanvasImage("tux.jpg");
         int maxWidth = 20;
 
