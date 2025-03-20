@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Net.WebSockets;
+using System.Security.Cryptography;
 
 namespace LevelOne
 {
@@ -14,6 +16,8 @@ namespace LevelOne
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP1!");
+            Console.WriteLine("Bad day?") ;
+            Console.WriteLine("Bye!");
         }
     }
 }
