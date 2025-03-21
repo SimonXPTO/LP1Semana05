@@ -15,13 +15,14 @@ namespace CarStats
             BarChart bc = new BarChart();
 
 
+            for (int i = 0; i < int.Parse(args[0]); i++)
+            {
+                bc.AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1, 20));
+            }
 
             AnsiConsole.Write(bc
                 .Label("Cars sales")
                 .CenterLabel()
-                .AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1,20))
-                .AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1,20))
-                .AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1,20))
             );
 
             
