@@ -14,13 +14,12 @@ namespace CarStats
 
             BarChart bc = new BarChart();
 
-            string brand = new Faker().Vehicle.Manufacturer();
-            int count = new Faker().Random.Number(1,20);
+
 
             AnsiConsole.Write(bc
                 .Label("Cars sales")
                 .CenterLabel()
-                .AddItem(brand, count)
+                .AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1,20))
                 .AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1,20))
                 .AddItem(faker.Vehicle.Manufacturer(), faker.Random.Number(1,20))
             );
